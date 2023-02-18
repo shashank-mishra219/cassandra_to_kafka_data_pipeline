@@ -35,9 +35,9 @@ CREATE KEYSPACE ineuron
 	AND DURABLE_WRITES = true;
 ```
 
-Create a table ineuron.Employee
+Create a table Employee
 ```
- CREATE TABLE EMPLOYEE(
+ CREATE TABLE ineuron.EMPLOYEE(
      EMP_ID INT,
      EMP_NAME text,
      CITY text,
